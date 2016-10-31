@@ -1,5 +1,5 @@
-<h1>testataan post metodia</h1>
-<form method="post" action="post.php">
+<h1>testataan get metodia</h1>
+<form method="get" action="get.php">
 <label>Etunimi  </label>
 <input type="text" name="en" required="">
 <br>
@@ -10,9 +10,9 @@
 </form>
 
 <?php
-if (isset($_POST['nappi'])) {
-	$enimi=$_POST['en'];
-	$snimi=$_POST['sn'];
+if (isset($_GET['nappi'])) {
+	$enimi=$_GET['en'];
+	$snimi=$_GET['sn'];
 	echo "Terve $enimi $snimi";
 }
 ?>
