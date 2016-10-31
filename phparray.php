@@ -1,3 +1,4 @@
+<?php include 'menu.php'; ?>
 <h1>php array</h1>
 <?php
 $asiakkaat=$arrayName = array(
@@ -23,3 +24,5 @@ foreach ($asiakkaat as $rivi) {
 	foreach ($asiakkaat as $rivi) {
 		echo '<tr><td>'.$rivi['en']. '</td><td>'.$rivi['sn'].'</td><td>';
 	}
+?>
+<?php include 'footer.php'; ?>
