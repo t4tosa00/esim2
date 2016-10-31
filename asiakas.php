@@ -8,7 +8,7 @@ echo "<TABLE border=1>";
 echo "<TR><TH>Etunimi</TH><TH>Sukunimi</TH></TR>";
 
 foreach ($variable as $rivi) {
-	echo $rivi['etunimi'].' '.$rivi['sukunimi'].'<br>';
+	echo '<tr><td>'.$rivi['etunimi'].'</td><td>'.$rivi['sukunimi'].'</td></tr>';
 }
 	echo"</TABLE>;
 ?>
